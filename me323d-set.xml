@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+ <sim>
+
+  <description>Messerschmitt Me323-D</description>
+  <author>Detlef Faber</author>
+
+  <flight-model>yasim</flight-model>
+  <aero>me323d-yasim</aero>
+  <fuel-fraction>1.0</fuel-fraction>
+
+  <sound>
+   <path>Aircraft/ju52/dc3-sound.xml</path>
+  </sound>
+
+  <submodels> 
+    <serviceable type="bool">true</serviceable>
+    <path>Aircraft/me323/Models/submodels.xml</path>
+  </submodels>
+
+  <panel>
+   <path>Aircraft/c310/c310-vfr-panel.xml</path>
+   <visibility>false</visibility>
+  </panel>
+  <panel_2>
+   <path>Aircraft/c310/c310-mini-panel.xml</path>
+  </panel_2>
+
+  <model>
+		<Loads>
+				<Load n="0">
+						<position-norm type="float">0</position-norm>
+				</Load>
+		</Loads>
+		<path>Aircraft/me323/Models/Me323d.xml</path>
+  </model> 
+
+  <virtual-cockpit archive="y">false</virtual-cockpit>
+  <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
+  <number-views type="int" archive="y">7</number-views>
+  <view>
+   <internal archive="y">true</internal>
+   <config>
+     <!-- x/y/z == right/up/back -->
+     <x-offset-m archive="y">-0.19</x-offset-m>
+     <y-offset-m archive="y">2.07</y-offset-m>
+     <z-offset-m archive="y">-6.7</z-offset-m>
+     <pitch-offset-deg>-12</pitch-offset-deg>
+   </config>
+  </view>
+
+  <view n="1"> 
+        <config> 
+          <target-z-offset-m archive="y" type="double">-4.0</target-z-offset-m>
+        </config>
+      </view>
+
+  <view n="2"> 
+        <config> 
+          <target-z-offset-m archive="y" type="double">-4.0</target-z-offset-m>
+        </config>
+      </view>
+
+  <view n="3"> 
+        <config> 
+          <target-z-offset-m archive="y" type="double">-4.0</target-z-offset-m>
+        </config>
+      </view>
+
+  <view n="4"> 
+        <config> 
+          <target-z-offset-m archive="y" type="double">-4.0</target-z-offset-m>
+        </config>
+      </view>
+
+  <view n="5"> 
+        <config> 
+          <target-z-offset-m archive="y" type="double">-4.0</target-z-offset-m>
+        </config>
+      </view>
+
+  <chase-distance-m type="double" archive="y">-55.0</chase-distance-m>
+
+  <help>
+   <title>Me-323 D Gigant</title>
+
+    <key>
+      <name>C</name>
+      <desc>toggle Passenger Door</desc>
+    </key>
+    <key>
+      <name>D</name>
+      <desc>toggle Front Access Door</desc>
+    </key>
+    <text>---Take Off---
+At full load Flaps down 10 degrees. Take off at 1.3 ata. Climb at 1.1 ata and 2200 rpm, Cruise with 0.9 ata and 2000 rpm.
+---Landing---
+lower Flaps under 180 km/h. Approach Speed is 140 km/h or less. Speed at Treshold should be 110 - 120 km/h. 
+</text>
+  </help>
+  <weight n="0">
+      <name>forward cargo</name>
+      <weight-lb>0</weight-lb>
+      <selected>none</selected>
+      <opt>
+					<name>none</name>
+					<lbs>0</lbs>
+			</opt>
+     	<opt>
+					<name>Truck</name>
+      		<lbs>11023</lbs>
+      </opt>
+  </weight>
+  <weight n="1">
+      <name>middle cargo</name>
+      <weight-lb>0</weight-lb>
+      <selected>none</selected>
+      <opt>
+					<name>none</name>
+					<lbs>0</lbs>
+			</opt>
+     	<opt>
+					<name>Truck</name>
+      		<lbs>11023</lbs>
+      </opt>
+     	<opt>
+					<name>self propelled Gun</name>
+      		<lbs>26455</lbs>
+      </opt>
+  </weight>
+  <weight n="2">
+      <name>rear cargo</name>
+      <weight-lb>0</weight-lb>
+      <selected>none</selected>
+      <opt>
+					<name>none</name>
+					<lbs>0</lbs>
+			</opt>
+     	<opt>
+					<name>Truck</name>
+      		<lbs>11023</lbs>
+      </opt>
+
+  </weight>
+
+	<multiplay>
+		<generic>
+			<float n="0">0</float>
+		</generic>
+	</multiplay>
+
+ </sim>
+
+ <controls>
+
+  <jump-signal type="bool">false</jump-signal>
+  <engines>
+   <engine n="0">
+    <magnetos>3</magnetos>
+   </engine>
+   <engine n="1">
+    <magnetos>3</magnetos>
+   </engine>
+    <engine n="2">
+    <magnetos>3</magnetos>
+   </engine>
+   <engine n="3">
+    <magnetos>3</magnetos>
+   </engine>
+   <engine n="4">
+    <magnetos>3</magnetos>
+   </engine>
+    <engine n="5">
+    <magnetos>3</magnetos>
+   </engine>
+  </engines>
+  <gear>
+     <tailwheel-lock>true</tailwheel-lock>
+     <rdoor-pos-norm type="float">0.0</rdoor-pos-norm>
+     <fdoor-pos-norm type="float">0.0</fdoor-pos-norm>
+  </gear>
+ </controls>
+
+ <engines>
+  <engine n="0">
+   <rpm type="double">700</rpm>
+  </engine>
+  <engine n="1">
+   <rpm type="double">700</rpm>
+  </engine>
+  <engine n="2">
+   <rpm type="double">700</rpm>
+  </engine>
+  <engine n="3">
+   <rpm type="double">700</rpm>
+  </engine>
+  <engine n="4">
+   <rpm type="double">700</rpm>
+  </engine>
+  <engine n="5">
+   <rpm type="double">700</rpm>
+  </engine>
+ </engines>
+  
+ <autopilot>
+   <config>
+     <min-climb-speed-kt type="float">100.0</min-climb-speed-kt>
+     <best-climb-speed-kt type="float">120.0</best-climb-speed-kt>
+     <target-climb-rate-fpm type="float">1000.0</target-climb-rate-fpm>
+     <target-descent-rate-fpm type="float">1000.0</target-descent-rate-fpm>
+     <elevator-adj-factor type="float">6000.0</elevator-adj-factor>
+     <integral-contribution type="float">0.005</integral-contribution>
+     <zero-pitch-throttle type="float">0.45</zero-pitch-throttle>
+     <zero-pitch-trim-full-throttle type="float">0.001</zero-pitch-trim-full-throttle>
+   </config>
+ </autopilot>
+
+ <input>
+   <keyboard>
+      <key n="12"> 
+          <name>Ctrl-L</name>
+          <desc>unload</desc>
+          <binding> 
+            <command>nasal</command>
+          <script>me323.toggle_load0()</script>
+          </binding>
+      </key>
+      <key n="67">
+        <name>C</name>
+        <desc>Toggle Passenger-Door</desc>
+        <binding n="0">
+          <command>nasal</command>
+          <script>me323.toggle_reardoor()</script>
+        </binding>
+      </key>
+      <key n="68">
+        <name>D</name>
+        <desc>Toggle Front-Door</desc>
+        <binding n="0">
+          <command>nasal</command>
+          <script>me323.toggle_nosedoor()</script>
+        </binding>
+      </key>
+   <key n="106">
+    <name>j</name>
+    <desc>Jump to next seat</desc>
+    <binding>
+     <command>nasal</command>
+     <script>me323.nextPosition()</script>
+    </binding>
+   </key>
+
+   </keyboard>
+
+
+ </input>
+
+  <nasal>
+   <me323>
+     <file>Aircraft/me323/Nasal/me323.nas</file>
+   </me323>
+  </nasal>
+</PropertyList>

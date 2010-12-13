@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+
+  <PropertyList> 
+    <path>cockpit.ac</path>
+ <model>
+  <path>Aircraft/me323/Models/Instruments/alt10-ger.xml</path>
+  <offsets>
+   <x-m>-7.534</x-m>
+   <y-m>-0.465</y-m>
+   <z-m>1.647</z-m>
+	 <pitch-deg>-21.5</pitch-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Aircraft/me323/Models/Instruments/alt-ger/alt-ger.xml</path>
+  <offsets>
+   <x-m>-7.534</x-m>
+   <y-m>-0.366</y-m>
+   <z-m>1.647</z-m>
+	 <pitch-deg>-21.5</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/asi350-ger/asi350-ger.xml</path>
+  <offsets>
+   <x-m>-7.574</x-m>
+   <y-m>-0.366</y-m>
+   <z-m>1.749</z-m>
+	 <pitch-deg>-21.5</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/vario15-ger/vario15-ger.xml</path>
+  <offsets>
+   <x-m>-7.574</x-m>
+   <y-m>-0.137</y-m>
+   <z-m>1.749</z-m>
+	 <pitch-deg>-21.5</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/remote-ger/remote-ger.xml</path>
+  <offsets>
+   <x-m>-7.536</x-m>
+   <y-m>-0.137</y-m>
+   <z-m>1.659</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/afn2.xml</path>
+  <offsets>
+   <x-m>-7.506</x-m>
+   <y-m>-0.143</y-m>
+   <z-m>1.583</z-m>
+	 <pitch-deg>-21.5</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/ignition-ger.xml</path>
+  <offsets>
+   <x-m>-7.575</x-m>
+   <y-m>-0.047</y-m>
+   <z-m>1.749</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/ignition-ger.xml</path>
+  <offsets>
+   <x-m>-7.575</x-m>
+   <y-m>-0.021</y-m>
+   <z-m>1.749</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/ignition-ger.xml</path>
+  <offsets>
+   <x-m>-7.575</x-m>
+   <y-m>0.006</y-m>
+   <z-m>1.749</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/ignition-ger.xml</path>
+  <offsets>
+   <x-m>-7.575</x-m>
+   <y-m>0.059</y-m>
+   <z-m>1.749</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/ignition-ger.xml</path>
+  <offsets>
+   <x-m>-7.575</x-m>
+   <y-m>0.032</y-m>
+   <z-m>1.749</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/ignition-ger.xml</path>
+  <offsets>
+   <x-m>-7.575</x-m>
+   <y-m>0.085</y-m>
+   <z-m>1.749</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/turn-ger.xml</path>
+  <offsets>
+   <x-m>-7.540</x-m>
+   <y-m>-0.251</y-m>
+   <z-m>1.744</z-m>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/oldatt-ger/oldatt-ger.xml</path>
+  <offsets>
+   <x-m>-7.48</x-m>
+   <y-m>-0.251</y-m>
+   <z-m>1.617</z-m>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/tach30-fr.xml</path>
+  <offsets>
+   <x-m>-7.536</x-m>
+   <y-m>0.010</y-m>
+   <z-m>1.659</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/man18-ger/man18-ger.xml</path>
+  <offsets>
+   <x-m>-7.504</x-m>
+   <y-m>0.010</y-m>
+   <z-m>1.574</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/tach30-fr.xml</path>
+  <offsets>
+   <x-m>-7.536</x-m>
+   <y-m>0.096</y-m>
+   <z-m>1.659</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/man18-ger.xml</path>
+  <offsets>
+   <x-m>-7.504</x-m>
+   <y-m>0.096</y-m>
+   <z-m>1.574</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/tach30-fr.xml</path>
+  <offsets>
+   <x-m>-7.536</x-m>
+   <y-m>0.181</y-m>
+   <z-m>1.659</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/man18-ger.xml</path>
+  <offsets>
+   <x-m>-7.504</x-m>
+   <y-m>0.181</y-m>
+   <z-m>1.574</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/tach30-fr.xml</path>
+  <offsets>
+   <x-m>-7.536</x-m>
+   <y-m>0.267</y-m>
+   <z-m>1.659</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/man18-ger.xml</path>
+  <offsets>
+   <x-m>-7.504</x-m>
+   <y-m>0.267</y-m>
+   <z-m>1.574</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/tach30-fr.xml</path>
+  <offsets>
+   <x-m>-7.536</x-m>
+   <y-m>0.355</y-m>
+   <z-m>1.659</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/man18-ger.xml</path>
+  <offsets>
+   <x-m>-7.504</x-m>
+   <y-m>0.355</y-m>
+   <z-m>1.574</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/tach30-fr.xml</path>
+  <offsets>
+   <x-m>-7.536</x-m>
+   <y-m>0.44</y-m>
+   <z-m>1.659</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+<model>
+  <path>Aircraft/me323/Models/Instruments/man18-ger.xml</path>
+  <offsets>
+   <x-m>-7.504</x-m>
+   <y-m>0.44</y-m>
+   <z-m>1.574</z-m>
+	 <pitch-deg>-20.0</pitch-deg>
+  </offsets>
+ </model>
+
+  </PropertyList>
