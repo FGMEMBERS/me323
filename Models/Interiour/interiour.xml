@@ -3,4 +3,23 @@
   <PropertyList> 
     <path>interiour.ac</path>
 
+    <model>
+      <name>Walker Entry Hotspot 1</name>
+      <path>Aircraft/Generic/Human/Models/entryHS.xml</path>
+      <offsets>
+          <x-m>-9.8</x-m>
+          <y-m>-0.0</y-m>
+          <z-m>-2.324</z-m>
+      </offsets>
+    <overlay>
+      <animation>
+        <action>
+          <binding>
+            <script>walk.get_in(-9.7,-0.0,-2.322)</script>
+          </binding>
+        </action>
+      </animation>
+    </overlay>
+  </model>
+
   </PropertyList>

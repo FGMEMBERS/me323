@@ -35,6 +35,8 @@
 				</Load>
 		</Loads>
 		<path>Aircraft/me323/Models/Me323d.xml</path>
+    <map include="Aircraft/me323/Models/map.xml"/>
+
   </model> 
 
   <virtual-cockpit archive="y">false</virtual-cockpit>

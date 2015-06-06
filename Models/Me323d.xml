@@ -338,7 +338,7 @@
    <z>1.000000</z>
    </axis>
  </animation>
-
+<!--
  <model>
   <path>Aircraft/me323/Models/Loads/sdkfz251.ac</path>
   <offsets>
@@ -461,5 +461,5 @@
    <z>0</z>
    </axis>
  </animation>
-
+-->
 </PropertyList>
